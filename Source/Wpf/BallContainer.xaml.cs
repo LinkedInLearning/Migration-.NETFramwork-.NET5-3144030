@@ -15,7 +15,7 @@ namespace MastermindWpf
         private int? _bad = null;
         private BallContainerMode _mode;
 
-        public EventHandler<Color> ColorSelected;
+        public EventHandler<Color>? ColorSelected;
 
         /// <summary>
         /// Initialise une nouvelle instance d'un support de jeu.

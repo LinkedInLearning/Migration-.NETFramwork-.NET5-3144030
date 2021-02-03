@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using System;
 using System.Linq;
 using System.Windows;
 
@@ -9,12 +11,14 @@ namespace MastermindWpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        private MastermindCommon.DbContext _dbContext = new MastermindCommon.DbContext();
+        private MastermindCommon.DbContext _dbContext;
 
         /// <summary />
-        public MainWindow()
+        public MainWindow(IConfiguration configuration, ILogger<MainWindow> logger, MastermindCommon.DbContext dbContext)
         {
             InitializeComponent();
+
+            _dbContext = dbContext;
 
             initialColors.Mode = BallContainerMode.InitialColor;
 
@@ -39,7 +43,7 @@ namespace MastermindWpf
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        private void btnPlay_Click(object sender, RoutedEventArgs? e)
         {
             // Tricher ?
             chkCheat_Checked(this, null);
@@ -147,7 +151,7 @@ namespace MastermindWpf
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void chkCheat_Checked(object sender, RoutedEventArgs e)
+        private void chkCheat_Checked(object sender, RoutedEventArgs? e)
         {
             initialColors.Visibility = chkCheat.IsChecked == true 
                                      ? Visibility.Visible 
