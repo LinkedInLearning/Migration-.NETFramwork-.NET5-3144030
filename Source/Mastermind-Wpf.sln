@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MastermindCommon", "Common\MastermindCommon.csproj", "{436CB274-9F21-4AEE-A73B-36C1AF4ADBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MastermindWpf", "Wpf\MastermindWpf.csproj", "{1DD08A0D-BD1E-4D60-845C-F9F11583EF9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436CB274-9F21-4AEE-A73B-36C1AF4ADBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436CB274-9F21-4AEE-A73B-36C1AF4ADBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436CB274-9F21-4AEE-A73B-36C1AF4ADBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436CB274-9F21-4AEE-A73B-36C1AF4ADBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD08A0D-BD1E-4D60-845C-F9F11583EF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD08A0D-BD1E-4D60-845C-F9F11583EF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD08A0D-BD1E-4D60-845C-F9F11583EF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD08A0D-BD1E-4D60-845C-F9F11583EF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBCA8B14-1CD4-41DE-A46B-DE65ACB8BCB6}
+	EndGlobalSection
+EndGlobal
