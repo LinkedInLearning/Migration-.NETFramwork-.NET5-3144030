@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ConsoleEntityFramework.Models
 {
@@ -9,7 +10,7 @@ namespace ConsoleEntityFramework.Models
         public string Job { get; set; }
         public int ManagerId { get; set; }
         public DateTime HireDate { get; set; }
-        public decimal Salary { get; set; }
+        public decimal Salary { get; set; }        
         public virtual Department Department { get; set; }
     }
 }

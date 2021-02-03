@@ -21,7 +21,7 @@ namespace ConsoleEntityFramework
                 // Mr Smith
                 var smith = context.Employees
                                    .First(i => i.Name == "Smith");
-                
+
                 Console.WriteLine($"Employé :");
                 Console.WriteLine($"  - Nom : {smith.Name}");
                 Console.WriteLine($"  - Travail : {smith.Job}");
