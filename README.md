@@ -20,4 +20,4 @@ La branche _main_ correspond au code initial de début des exercices : le projet
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree.
 
 [lil-course-url]: https://www.linkedin.com/learning/migrer-de-dot-net-framework-vers-dot-net-5
-[tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQHWjCukYT-6FA/learning-public-crop_675_1200/0/1616575985139?e=1646964000&v=beta&t=pFAhm9VJHBq_ZVzV-SsAjKXHTcklElNGffP-MyMfR_Y
+[tn-url]: https://cdn.lynda.com/course/3144030/3144030-1616575981131-16x9.jpg
